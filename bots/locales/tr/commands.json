@@ -1,0 +1,97 @@
+{
+  "setup": {
+    "panelTitle": "XP Sistem Ayarları",
+    "panelDesc": "Sistemi aktifleştirmek için aşağıdaki menüden Log Kanalını seçin.",
+    "selectLogPlaceholder": "Log Kanalı Seç (Zorunlu)",
+    "systemReady": "Kurulum tamamlanmaya hazır.",
+    "waitingAction": "Log kanalı seçimi bekleniyor...",
+    "systemActiveTitle": "XP Sistemi Aktif Edildi! 🎉",
+    "complete": "Kurulum Başarılı!",
+    "finalNote": "Kullanıcılar artık XP kazanabilir. Bildirimler {{channel}} kanalına gidecek.",
+    "existingSetupTitle": "Mevcut Kurulum Tespit Edildi",
+    "existingSetupDesc": "Bu sunucuda zaten aktif bir kurulum bulunuyor. Devam ederseniz ayarlar SIFIRLANACAKTIR.",
+    "currentLog": "Mevcut Log Kanalı",
+    "currentCooldown": "Mevcut Bekleme Süresi",
+    "warningFooter": "Veritabanı temizliği için sıfırdan kurulum önerilir.",
+    "btnResetAndStart": "Tekrar Kurulum Yap",
+    "cancelled": "İşlem iptal edildi.",
+    "testMessageHeader": "Seviye Atladın (Test)",
+    "testMessageFooter": "Bu bir kurulum test mesajıdır.",
+    "testSent": "Test mesajı kanala gönderildi:",
+    "testFailed": "Test mesajı gönderilemedi!"
+  },
+  "rank": {
+    "name": "seviye",
+    "description": "Senin veya başka bir kullanıcının seviye kartını gösterir.",
+    "noData": "Bu kullanıcı için XP verisi bulunamadı.",
+    "error": "Kart oluşturulurken bir hata oluştu."
+  },
+  "top": {
+    "name": "Sıralama",
+    "description": "Sunucudaki XP sıralamasını gösterir.",
+    "title": "Liderlik Tablosu",
+    "empty": "Liderlik tablosu şu an boş.",
+    "alltime": "Tüm Zamanlar",
+    "monthly": "Aylık",
+    "daily": "Günlük",
+    "weekly": "Haftalık",
+    "yourStatsTitle": "Senin İstatistiklerin:"
+  },
+  "daily": {
+  	"name": "günlük",
+  	"description": "Günlük XP ödülünü almanı sağlar.",
+  	"levelLabel": "SEVİYE",
+  	"streakLabel": "Günlük seri: {{days}} Gün",
+  	"gainedXp": "{{xp}} XP Kazanıldı"
+  },
+  "setlevel": {
+      "name": "seviye-ayarla",
+      "description": "Bir kullanıcının seviyesini manuel olarak ayarlar.",
+      "isBot": "❌ Botların seviyesini ayarlayamazsınız.",
+      "success": "✅ **{{user}}** kullanıcısının seviyesi güncellendi: `{{oldLevel}}` ➔ `{{newLevel}}`",
+      "error": "❌ Seviye güncellenirken bir hata oluştu."
+  },
+  "help": {
+      "ui": {
+          "title": "Yardım Menüsü",
+          "description": "Yardım Almak İstediğiniz Kategoriyi Seçin",
+          "footer": "Komutu kullanan: {{user}}"
+      }
+  },
+  "credits": {
+      "description": "Firuze projesinin yapımında emeği geçenler.."
+  },
+    "managexp": {
+       "name": "xp-yönet",
+       "description": "Bir kullanıcının XP miktarını yönetir.",
+       "options": {
+        "action": "işlem",
+        "actionDesc": "Yapılacak işlem: Ekle veya Çıkar",
+        "type": "tür",
+        "typeDesc": "XP türü: Metin veya Ses",
+        "user": "kullanıcı",
+        "userDesc": "XP'si yönetilecek kullanıcı",
+        "amount": "miktar",
+        "amountDesc": "Eklenecek veya çıkarılacak XP miktarı"
+    },
+    "success": "✅ {{user}} kullanıcısının {{type}} XP'sine **{{amount}}** puan {{action}}.",
+    "actions": { "add": "eklendi", "remove": "çıkarıldı" },
+    "types": { "text": "Metin", "voice": "Ses" }
+    },
+    "settings": {
+    "title": "⚙️ {{guildName}} - Ayarlar",
+    "logChannel": "Log Kanalı",
+    "cooldown": "Bekleme Süresi",
+    "seconds": "{{sec}} Saniye",
+    "spamProtection": "Spam Koruması",
+    "spamDesc": "{{window}}sn / {{count}} mesaj",
+    "ignoredChannels": "Yasaklı Kanallar",
+    "ignoredRoles": "Yasaklı Roller",
+    "footer": "/setup veya /xp-ignore ile değiştirebilirsiniz.",
+    "viewRolesBtn": "Seviye Rollerini Görüntüle",
+    "backBtn": "Geri Dön",
+    "levelRolesTitle": "Seviye - Rol Eşleşmeleri",
+    "noLevelRoles": "Henüz herhangi bir seviye rolü ayarlanmamış.",
+    "levelRoleFormat": "✨ **Seviye {{level}}**: {{role}} `({{count}} kişi)`"
+  }
+}

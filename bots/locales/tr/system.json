@@ -1,0 +1,31 @@
+{
+  "common": {
+    "yes": "Evet",
+    "no": "Hayır",
+    "active": "Aktif",
+    "inactive": "Pasif",
+    "reset": "Sıfırla",
+    "cancel": "İptal Et",
+    "channel": "Kanal",
+    "role": "Rol",
+    "none": "Yok",
+    "notSet": "Ayarlanmamış",
+    "loading": "Yükleniyor...",
+    "secondsShort": "sn",
+    "deletedRole": "Silinmiş rol"
+  },
+  "events": {
+    "guildCreate": {
+      "setupDM": "Merhaba! Beni **{{guildName}}** sunucusuna eklediğiniz için teşekkürler. Başlamak için `/setup` yazın.",
+      "setupPublic": "Merhaba {{ownerTag}}! Seviye botunu kullanmaya başlamak için lütfen `/setup` yazın."
+    },
+    "levelUp": {
+      "message": "Tebrikler {user}, yeni seviyen {level}! 🥳",
+      "title": "Seviye atladın!"
+    }
+  },
+  "footer": {
+    "requestedBy": "{{user}} tarafından istendi",
+    "securityBackup": "📦 **Firuze Güvenlik Yedeği**\nTarih: {{date}}"
+  }
+}

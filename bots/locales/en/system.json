@@ -1,0 +1,25 @@
+{
+  "common": {
+    "yes": "Yes",
+    "no": "No",
+    "active": "Active",
+    "inactive": "Inactive",
+    "reset": "Reset",
+    "cancel": "Cancel",
+    "none": "None",
+    "notSet": "Not Set",
+    "secondsShort": "s",
+    "deletedRole": "Role is deleted"
+  },
+  "events": {
+    "guildCreate": "Thanks for adding me to **{{guildName}}**!",
+    "levelUp": {
+      "message": "Congratulations {user}, your new level is {level}! 🥳",
+      "title": "You leveled up!"
+    }
+  },
+  "status": {
+    "loading": "Processing...",
+    "saving": "Saving changes..."
+  }
+}
