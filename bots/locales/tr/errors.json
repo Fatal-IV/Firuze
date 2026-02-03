@@ -1,0 +1,21 @@
+{
+  "auth": {
+    "noPermission": "Bu komutu kullanabilmek için `{{permission}}` yetkisine sahip olmalısın.",
+    "notYourInteraction": "❌ Bu menüyü sadece komutu başlatan (**{{user}}**) kullanabilir."
+  },
+  "logic": {
+    "commandError": "Bu komutu çalıştırırken bir hata oluştu.",
+    "timeout": "Zaman aşımı. İşlem iptal edildi.",
+    "cooldown": "Lütfen {{seconds}} saniye bekleyin.",
+    "setupRequired": "Botun tam verimli çalışabilmesi için /setup komutunu kullanın.",
+    "noArgs": "Lütfen geçerli bir argüman girin."
+  },
+  "admin": {
+    "hierarchyError": "Bu rol benden daha üstte olduğu için yönetemiyorum.",
+    "tooLong": "Girdi çok uzun (Maks: {{limit}} karakter).",
+    "notFound": "İstenilen veri bulunamadı."
+  },
+   "daily": {
+      "cooldown": "Bu komutu tekrar kullanabilmek için {{hours}} saat {{minutes}} dakika beklemelisin."
+  }
+}
